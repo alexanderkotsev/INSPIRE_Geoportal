@@ -2,13 +2,13 @@
 
 ## Introduction
 
-Author: EC JRC based on input from INSPIRE MIWP sub-group 2.3.1.
+Author: EC JRC based on input from INSPIRE MIWP sub-group 2.3.2.
 
 Short description:
-This is a consolidated proposal, based on the collection and comparison of proposals received from the contributing Member State representatives (NL, FR, ES, LT) of this subgroup.
+This is a consolidated proposal, based on the collection and comparison of proposals received from the contributing Member State representatives (NL, FR, ES, LT) of the subgroup.
 
-This proposal implements the requirements and recommendations as initially described in the discussion paper and further improved by the subsequent proposals made by members of the sub-group.
-This proposal is aligned with the discussion paper and the reference for the metadata specification is INSPIRE TG version 2.0.1. 
+This proposal implements the requirements and recommendations as initially described in the [Discussion Paper on possible simplification of data-service linking in INSPIRE](https://github.com/INSPIRE-MIF/gp-data-service-linking-simplification/blob/main/resources/Discussion%20Paper%20on%20data-service%20linking%20v0.5.docx) and further improved by the subsequent [proposals for the simplification approach](https://github.com/INSPIRE-MIF/gp-data-service-linking-simplification/tree/main/proposals) made by the members of the sub-group.
+This proposal is aligned with the aforementioned Discussion Paper and the reference for the metadata specification is the [INSPIRE Technical Guidance document version 2.0.1](https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139). 
 
 
 ## Proposal
