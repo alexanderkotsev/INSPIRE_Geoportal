@@ -106,6 +106,9 @@ GetCapabilities
 - **name** element contains the name of the service,
 - **function** element contains a CI_OnLineFunctionCode element with codeListValue *information* from codelist http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode to denote *GetCapabilities*.
 
+#### View - WMS - GetCapabilities 
+_Note: this example shall also apply to the definition of a WMTS service, using the proper codelists defined before
+
 ```xml
 <gmd:transferOptions>
   <gmd:MD_DigitalTransferOptions>
@@ -113,7 +116,7 @@ GetCapabilities
     <gmd:onLine>
       <gmd:CI_OnlineResource>
         <gmd:linkage>
-          <gmd:URL>http://inspirelab.geonovum.nl/test/kad/wms?request=GetCapabilities&amp;service=WMS</gmd:URL>
+          <gmd:URL>http://inspirelab.geonovum.nl/test/kad/wms?request=GetCapabilities&amp;service=WMS&amp;version=1.3.0</gmd:URL>
         </gmd:linkage>
         <gmd:protocol>
           <gmx:Anchor xlink:href="http://www.opengis.net/def/serviceType/ogc/wms">OGC:WMS</gmx:Anchor>
@@ -134,6 +137,37 @@ GetCapabilities
 </gmd:transferOptions>
 ```
 
+#### View - WMS - GetMap
+
+_Note: this example shall also apply to the definition of a WMTS service, using the proper codelists defined before
+
+```xml
+<gmd:transferOptions>
+  <gmd:MD_DigitalTransferOptions>
+      [...]
+    <gmd:onLine>
+      <gmd:CI_OnlineResource>
+        <gmd:linkage>
+          <gmd:URL>http://inspirelab.geonovum.nl/test/kad/wms?request=GetMap&amp;service=WMS</gmd:URL>
+        </gmd:linkage>
+        <gmd:protocol>
+          <gmx:Anchor xlink:href="http://www.opengis.net/def/serviceType/ogc/wms">OGC:WMS</gmx:Anchor>
+        </gmd:protocol>
+        <gmd:applicationProfile>
+          <gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType/view">view</gmx:Anchor>
+        </gmd:applicationProfile>
+        <gmd:name>
+          <gco:CharacterString>Bestuurlijke grenzen WMS</gco:CharacterString>
+        </gmd:name>
+        <gmd:function>
+          <gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information" />
+        </gmd:function>
+      </gmd:CI_OnlineResource>
+    </gmd:onLine>
+      [...]
+  </gmd:MD_DigitalTransferOptions>
+</gmd:transferOptions>
+```
 
 ```xml
 <examplexml>
