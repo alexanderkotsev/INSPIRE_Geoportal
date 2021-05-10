@@ -13,18 +13,9 @@ This proposal is aligned with the discussion paper and the reference for the met
 
 ## Proposal
 
-### Details of the proposal
+1. For the protocol codelist, the INSPIRE Registry already offers a series of external codelist values here: https://inspire.ec.europa.eu/metadata-codelist/ProtocolValue
 
-
-Assumptions:
-
-
-For the protocol codelist, the INSPIRE Registry already offers a series of external codelist values here: https://inspire.ec.europa.eu/metadata-codelist/ProtocolValue
-
-Regarding the codelist labels, in the OGC vocabularies they specify a simple label.
-For instance, the preferred label for `http://www.opengis.net/def/serviceType/ogc/wfs` is `wfs`.
-For those OGC protocol cases, we think that we can keep the format `OGC:***`.
-
+2. Regarding the codelist labels, in the OGC vocabularies they specify a simple label. For instance, the preferred label for `http://www.opengis.net/def/serviceType/ogc/wfs` is `wfs`. For those OGC protocol cases, we think that we can keep the format `OGC:***`.
 
 #### View Services
 
